@@ -1,0 +1,10 @@
+.infoLine {
+  color: #fafafa66;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.value {
+  color: #ffffff;
+}

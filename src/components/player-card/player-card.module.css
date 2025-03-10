@@ -1,0 +1,38 @@
+.playerCard {
+  background: #1a1a1a;
+  padding: 8px;
+  display: flex;
+  width: 100%;
+  border-radius: 4%;
+}
+
+.playerCard img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.playerCard p {
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+}
+
+.infoKill {
+  display: flex;
+  gap: 4px;
+}
+
+.killsLabel {
+  color: #fafafa66;
+  font-size: 14px;
+}
+
+.playerInfo {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0px 8px;
+  align-items: center;
+}

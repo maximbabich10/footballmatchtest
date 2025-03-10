@@ -1,0 +1,10 @@
+.team {
+  padding: 0 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.away {
+  flex-direction: row-reverse;
+}

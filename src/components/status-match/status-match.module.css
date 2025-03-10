@@ -1,0 +1,27 @@
+.statusmatch {
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.live {
+  background-color: #43ad28;
+  color: #ffffff;
+}
+
+.finished {
+  background-color: #eb0237;
+  color: #ffffff;
+}
+
+.matchpreparing {
+  background-color: #eb6402;
+  color: #ffffff;
+}
+
+.ongoing {
+  background-color: #43ad28;
+  color: #ffffff;
+}

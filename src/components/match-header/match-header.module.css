@@ -1,0 +1,39 @@
+.headerWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.wrapScoreInfo {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrappArrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow {
+  width: 13px;
+  height: 8px;
+  transition: transform 0.3s ease;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+.arrowDown {
+  transform: rotate(0deg);
+}
